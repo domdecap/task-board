@@ -1,1 +1,3 @@
+![Screenshot of website](./assets/images/Screenshot%202024-04-03%20at%209.46.04 PM.png)
+[![HTML 5 Badge](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=fff&style=for-the-badge)]() [![CSS 3 Badge](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff&style=for-the-badge)]() [![Javascript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge)]() [![jQuery Badge](https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=fff&style=for-the-badge)]()
 # task-board

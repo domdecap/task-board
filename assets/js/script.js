@@ -100,9 +100,14 @@ function handleAddTask(event) {
 
 
 // Todo: create a function to handle deleting a task
-function handleDeleteTask(event) {
-//this will delete from local storage
-//run task list render
+function handleDeleteTask(event){
+    const taskId = $(this).closest('.task-card').data('id');
+    
+    taskList = taskList.filter(task => task.id !== taskId);
+    
+    localStorage.setItem("tasks", JSON.stringify(taskList));
+    
+    renderTaskList(); 
 }
 
 
@@ -145,4 +150,5 @@ $(document).ready(function () {
         accept: ".task-card",
         drop: handleDrop
     });
+    $(document).on('click','.delete-task', handleDeleteTask);
 });
